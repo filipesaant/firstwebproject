@@ -1,0 +1,87 @@
+@media (max-width: 1000px) {
+    body{
+        background-color: #f44336;
+    }
+    .fundo-video{
+        display: none;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .tanjiro{
+        max-width: 43%;
+    }
+
+    .container .imagem-titulo{
+        max-width: 50%;
+    }
+
+    .container .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .container .descricao{
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer{
+        background-color: #263238;
+    }
+
+    .modal .fechar-modal{
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video{
+        width: 300px;
+        height: 169px;
+    }
+}
+
+
+
+
+@media (width: 1024px){
+    
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .tanjiro{
+        max-width: 20%;
+    }
+
+    .container .imagem-titulo{
+        max-width: 20%;
+    }
+
+    .container .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .container .descricao{
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao-trailer{
+        background-color: #263238;
+        max-width: 50%;
+    }
+}
